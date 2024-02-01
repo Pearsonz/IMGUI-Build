@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/misc/freetype/imgui_freetype.cpp \
+  /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/misc/freetype/imgui_freetype.h \
+  /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui.h \
+  /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imconfig.h \
+  /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_internal.h \
+  /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imstb_textedit.h \
+  /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/ft2build.h \
+  /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/config/ftheader.h \
+  /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/freetype.h \
+  /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/freetype2/include/freetype/config/ftconfig.h \
+  /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/freetype2/include/freetype/config/ftoption.h \
+  /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/config/ftstdlib.h \
+  /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/fttypes.h \
+  /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftsystem.h \
+  /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftimage.h \
+  /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/fterrors.h \
+  /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftmoderr.h \
+  /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/fterrdef.h \
+  /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftmodapi.h \
+  /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftglyph.h \
+  /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftsynth.h \
+  /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imstb_rectpack.h

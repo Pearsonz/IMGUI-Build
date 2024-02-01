@@ -9,8 +9,15 @@ set(_imgui_freetype_sources
 )
 source_group(imgui-freetype FILES ${_imgui_freetype_sources})
 
+if (PLATFORM STREQUAL "iOS")
+    set(CMAKE_XCODE_ATTRIBUTE_ARCHS[sdk=iphoneos*] "arm64")
+    set(LIB_TYPE STATIC)
+else()
+    set(LIB_TYPE SHARED)
+endif()
+
 # define wrapper lib and respective files
-add_library(${PROJECT_NAME} SHARED
+add_library(${PROJECT_NAME} ${LIB_TYPE}
     cimgui_freetype.cpp
     ${_imgui_freetype_sources}
 )

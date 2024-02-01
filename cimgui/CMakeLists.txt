@@ -13,6 +13,10 @@ file(GLOB IMGUI_SOURCES
 
 set(IMGUI_STATIC "no" CACHE STRING "Build as a static library")
 
+if (PLATFORM STREQUAL "iOS")
+    set(CMAKE_XCODE_ATTRIBUTE_ARCHS[sdk=iphoneos*] "arm64")
+endif()
+
 #add library and link
 if (IMGUI_STATIC)
     add_library(cimgui STATIC ${IMGUI_SOURCES})

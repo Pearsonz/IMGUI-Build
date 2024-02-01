@@ -1,0 +1,19 @@
+#!/bin/sh
+set -e
+if test "$CONFIGURATION" = "Debug"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test "$CONFIGURATION" = "Release"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test "$CONFIGURATION" = "MinSizeRel"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test "$CONFIGURATION" = "RelWithDebInfo"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+

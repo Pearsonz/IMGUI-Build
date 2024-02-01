@@ -1,0 +1,65 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "d5f9dba3885deaf3f86235db0774cf4ebd4b120a01c4dc31c025532fa93f5e88"
+    }
+  ],
+  "containerPath" : "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/cimgui-freetype.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos17.2",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64v8",
+        "arm64",
+        "armv8"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/pearson/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/pearson/Library/Developer/Xcode/DerivedData/cimgui-freetype-ceukeiqexahwxuahlevgeitjtjhm/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/pearson/Library/Developer/Xcode/DerivedData/cimgui-freetype-ceukeiqexahwxuahlevgeitjtjhm/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone14,2",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "17.2.1",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone14,2",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "00008110-001C61A90182801E",
+          "TARGET_DEVICE_MODEL" : "iPhone14,2",
+          "TARGET_DEVICE_OS_VERSION" : "17.2.1",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphoneos"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

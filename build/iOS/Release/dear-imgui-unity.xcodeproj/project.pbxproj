@@ -1,0 +1,1916 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3B89E7EA69384134B85AF407 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 716B08988C3E444FA380CB0E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				B6A9AF045DDF25D3136DF13E /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				214DE9DEA71E49AF89A6143F /* PBXTargetDependency */,
+				EDBE5C523A0943CCB7B586B9 /* PBXTargetDependency */,
+				41A65514E6984E32B6B40F8B /* PBXTargetDependency */,
+				B1DB408FFD2B402FAA871F5F /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		63697F7D2D2A430587C780E0 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F3E0995E3477493C9E764E53 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				2572247547188D360019DD66 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		997D63E24F1C46EBB6495353 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 385E5774E7CA458DB6D0A427 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				0B5D563E60694220A3882BB7 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		E5CC4632EC4F4AB09F42CCFA /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3FEE8468450546BFAB47A6EE /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				3DDE754AE40F432B8A92DCBB /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00C38676A93849E2A24E9B4D /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftincrem.h */ = {isa = PBXBuildFile; fileRef = CA242E4876994E8384F62EE9 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftincrem.h */; };
+		029E9AC5DA084D48BC3EED52 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/ft2build.h */ = {isa = PBXBuildFile; fileRef = 5661E9FE317447D38055AAB6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/ft2build.h */; };
+		06286FBFCC4A49CD85DC257B /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/misc/freetype/imgui_freetype.cpp */ = {isa = PBXBuildFile; fileRef = A4A83356B6BB4312B703F173 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/misc/freetype/imgui_freetype.cpp */; };
+		0A1C32C85A534D158207B6FB /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftgxval.h */ = {isa = PBXBuildFile; fileRef = 60CC5D53DF71434B88291E99 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftgxval.h */; };
+		0D1045E9F4BD489D895B1650 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/fttrigon.h */ = {isa = PBXBuildFile; fileRef = 622934236CF641FDAAFD85E8 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/fttrigon.h */; };
+		0D1DFE9BEF6D4B5AB71B8DA1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftstream.h */ = {isa = PBXBuildFile; fileRef = D54354AB6EB34ACC9A56F63E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftstream.h */; };
+		0FCA060C67AE4FDEB18216A6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/cid/type1cid.c */ = {isa = PBXBuildFile; fileRef = FA0D6E0C65834F719D0EBEFE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/cid/type1cid.c */; };
+		1152EDE15A8B484AAB716847 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftbdf.c */ = {isa = PBXBuildFile; fileRef = C6BA6CED13C54F97A9DD712D /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftbdf.c */; };
+		119F7001729B4560AECFF5E3 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/t1types.h */ = {isa = PBXBuildFile; fileRef = 56AA79DA3EF84C82B1E88DB4 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/t1types.h */; };
+		12D411AC92014574A1DFC611 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/config/ftoption.h */ = {isa = PBXBuildFile; fileRef = EAE8EDBC1B45487EB1554334 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/config/ftoption.h */; };
+		1300A474A1FB440880428081 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_draw.cpp */ = {isa = PBXBuildFile; fileRef = 44FD67ED71194A359F8E85FC /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_draw.cpp */; };
+		13B42CB854E84C18AE43EEE2 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/fttypes.h */ = {isa = PBXBuildFile; fileRef = 9AD19664174145AD94A72D13 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/fttypes.h */; };
+		15EDEEBB3BB344C092558335 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/raster/raster.c */ = {isa = PBXBuildFile; fileRef = 124187C9CE974A45923F414F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/raster/raster.c */; };
+		196726E7B7E44221B5AB9DD5 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/tttypes.h */ = {isa = PBXBuildFile; fileRef = B011122D3E594EB69D53EBA6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/tttypes.h */; };
+		1A04A341888B400194DE796B /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftgasp.h */ = {isa = PBXBuildFile; fileRef = 0686B8E0DF174F4FA2AFAAA8 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftgasp.h */; };
+		1BFF3D1E52E04566ADD92757 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/tttables.h */ = {isa = PBXBuildFile; fileRef = 24130F2109C04234A4961B77 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/tttables.h */; };
+		1C3C9A48C2734090BEBFDBB0 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftotval.h */ = {isa = PBXBuildFile; fileRef = 1FFCA821E74647DEB142B6C9 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftotval.h */; };
+		1D8C0D0B15E844D9A2D8FFB0 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftbitmap.c */ = {isa = PBXBuildFile; fileRef = 57B7ED5338D3475FAC57145E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftbitmap.c */; };
+		21ACD4EC388D476B8852D6C4 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftgloadr.h */ = {isa = PBXBuildFile; fileRef = F78D735C8B934609A5ECB25F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftgloadr.h */; };
+		238617C9A9004C37BEAC0173 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DC157CCB080E443787A01A7F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/CMakeLists.txt */; };
+		23D3A5CA1DDB4AD7A13A65A8 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftmodapi.h */ = {isa = PBXBuildFile; fileRef = 9B09AEB378544F7B9EF184B4 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftmodapi.h */; };
+		25CADD4E574446428BA01AD9 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/pfr/pfr.c */ = {isa = PBXBuildFile; fileRef = 4DCB82FE584447D3AFB33DA6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/pfr/pfr.c */; };
+		25DCF868BFF144509FA5D8B6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftlist.h */ = {isa = PBXBuildFile; fileRef = C69EFBE535EF4BF39ABB4183 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftlist.h */; };
+		25DD22DAE5A74A3ABBE58D94 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftsnames.h */ = {isa = PBXBuildFile; fileRef = B30FC2BACC3342B990FEC7CA /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftsnames.h */; };
+		2612352D54F44F2CBF9AC4B8 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftlcdfil.h */ = {isa = PBXBuildFile; fileRef = A70567889BBA4CF3B19B4EFB /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftlcdfil.h */; };
+		2A5C3491838145A4958AE220 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/freetype.h */ = {isa = PBXBuildFile; fileRef = 989A094A3B1443D0AFC99DE7 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/freetype.h */; };
+		2D416556034B404384BECFE1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftsystem.c */ = {isa = PBXBuildFile; fileRef = A5C1688A8DCF49DDBEBB141F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftsystem.c */; };
+		2DCAF6C5E5DA4C1DBE1901F7 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftsizes.h */ = {isa = PBXBuildFile; fileRef = 6BC808578F42499B98ABA777 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftsizes.h */; };
+		2F29035F6796437EA95E824D /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/bzip2/ftbzip2.c */ = {isa = PBXBuildFile; fileRef = 7AA3115AF01F45B480AC565F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/bzip2/ftbzip2.c */; };
+		30C0C8D40CAC4ED8A727FBED /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftpfr.c */ = {isa = PBXBuildFile; fileRef = 1A984FC5CFF94326AD01220F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftpfr.c */; };
+		3343C5B120BA4D2686EC060C /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/sfnt.h */ = {isa = PBXBuildFile; fileRef = 23881FCCBDC1461D89B67D1E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/sfnt.h */; };
+		36CB6A211CD841F492C228FC /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftvalid.h */ = {isa = PBXBuildFile; fileRef = F6480F9A6A44406BBB1291AF /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftvalid.h */; };
+		39236C0E0C1D4C6BAD88D6D4 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/psnames/psnames.c */ = {isa = PBXBuildFile; fileRef = 7B3A0F5107344ACEB7B296B1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/psnames/psnames.c */; };
+		39F45A91DB6940C4B28E4AEC /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/type42/type42.c */ = {isa = PBXBuildFile; fileRef = 0EB7A61C76C64426947D494F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/type42/type42.c */; };
+		3BA76170158F4269BAD16540 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/smooth/smooth.c */ = {isa = PBXBuildFile; fileRef = 06C8A169BE4F43A08F9DA119 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/smooth/smooth.c */; };
+		3CF6F19BF0EB46C3AFAD5C85 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftsynth.h */ = {isa = PBXBuildFile; fileRef = 0A0E5F3BAB964F81B62EE6BC /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftsynth.h */; };
+		3D5E5998BAD141588F240288 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/fterrdef.h */ = {isa = PBXBuildFile; fileRef = BF5CD394416C413893FE93A3 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/fterrdef.h */; };
+		3F3FAD2CF51C45EFAC2FC204 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftsystem.h */ = {isa = PBXBuildFile; fileRef = 8B4A348684E94D9B89A6DA0B /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftsystem.h */; };
+		407534BE3192405EB822BADB /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftbitmap.h */ = {isa = PBXBuildFile; fileRef = 5700F76FFFFB4AD3B40F4C73 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftbitmap.h */; };
+		457CF8B14BA64ACE933CB47F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftsynth.c */ = {isa = PBXBuildFile; fileRef = 374443E59AAB4D4D83981B35 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftsynth.c */; };
+		46D76B7DC5924A07985CC5C3 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/config/ftheader.h */ = {isa = PBXBuildFile; fileRef = 65B0DAAF15444E12B5B50185 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/config/ftheader.h */; };
+		46E61FFAD65D4CD8A11DF7F1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/pshinter/pshinter.c */ = {isa = PBXBuildFile; fileRef = 547B0D39CFA3436098F1937C /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/pshinter/pshinter.c */; };
+		46F37CD7596849ABBBF82791 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftbase.c */ = {isa = PBXBuildFile; fileRef = D9372AFB8CD94C53A5C6420E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftbase.c */; };
+		489C19582B2346EDB4304A4F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftmac.h */ = {isa = PBXBuildFile; fileRef = C9AAB86CE1B14F0DA87F7B33 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftmac.h */; };
+		4B6A1F72935549E68153FD22 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ttnameid.h */ = {isa = PBXBuildFile; fileRef = 17C84CB0FB4A427CA1E7FF00 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ttnameid.h */; };
+		53335690D7A84BBA8690FB99 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/config/ftmodule.h */ = {isa = PBXBuildFile; fileRef = 91DBC94378994AD3BB6D2BBA /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/config/ftmodule.h */; };
+		5339B334482A48F4A893F9DC /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftrfork.h */ = {isa = PBXBuildFile; fileRef = 91BD94E54B144F759CCC316D /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftrfork.h */; };
+		5508951A1D61425A8F8D3177 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftgxval.c */ = {isa = PBXBuildFile; fileRef = 46309640CF704142AF285CDA /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftgxval.c */; };
+		57B69A3B467E42639BE2EBAE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftdebug.c */ = {isa = PBXBuildFile; fileRef = 991E68B6B733449BB849A570 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftdebug.c */; };
+		57DFDB91385F4EC8BFBC7F25 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/config/ftconfig.h */ = {isa = PBXBuildFile; fileRef = 243A67F0E9DC45EC8A6EEBE1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/config/ftconfig.h */; };
+		5946623596F547ED86EE9AE9 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftotval.c */ = {isa = PBXBuildFile; fileRef = 220A8D85E3FB494C86060936 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftotval.c */; };
+		641D4A2301D94A8988D331DA /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftcache.h */ = {isa = PBXBuildFile; fileRef = 89B4670D8129454A94AC8987 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftcache.h */; };
+		681E4C6BA0F148119E54EB92 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 57AC0C553C58497CA55FC773 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/CMakeLists.txt */; };
+		68D012656B264C168BE0EF84 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_demo.cpp */ = {isa = PBXBuildFile; fileRef = 086FD09D4BAA45D399E6F422 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_demo.cpp */; };
+		693CCE54D9A24885BB2D1E13 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftbbox.c */ = {isa = PBXBuildFile; fileRef = 89790FC112BE4666A131163E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftbbox.c */; };
+		69859256B9E14B3BAFDD1CD6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftdrv.h */ = {isa = PBXBuildFile; fileRef = D5F7DD2EF406499ABB833B7F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftdrv.h */; };
+		6B26EEB921FE4594B6039DC1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftglyph.c */ = {isa = PBXBuildFile; fileRef = 0BA3A5A76F974375B634F0BE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftglyph.c */; };
+		6C928872D82142EE98EC4878 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/pcf/pcf.c */ = {isa = PBXBuildFile; fileRef = 63EC894F27FE4E2983F6DA73 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/pcf/pcf.c */; };
+		6E731C84F5D247D3AEC98022 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftadvanc.h */ = {isa = PBXBuildFile; fileRef = C19C607E856042B9BFC48C79 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftadvanc.h */; };
+		70FF63587C85433CA67154CB /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftimage.h */ = {isa = PBXBuildFile; fileRef = A3400871F0FB4851B0C7EC7A /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftimage.h */; };
+		734F263057D040F79446BF80 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftobjs.h */ = {isa = PBXBuildFile; fileRef = D76300201852401896415AAB /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftobjs.h */; };
+		74E3D69B1DCA491CB5DCD6B5 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/cfftypes.h */ = {isa = PBXBuildFile; fileRef = 21190B6437534565A34F427E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/cfftypes.h */; };
+		790E2163BE5847CEB70B9D8D /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftpatent.c */ = {isa = PBXBuildFile; fileRef = 484BBC87CCDF4F0B82F43BB1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftpatent.c */; };
+		7BB8ABFC31134D168C9FFB9C /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_widgets.cpp */ = {isa = PBXBuildFile; fileRef = CA01A49AF69643848C01B56E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_widgets.cpp */; };
+		7F4EA21B1D9C496D9175310C /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/cache/ftcache.c */ = {isa = PBXBuildFile; fileRef = 19C203F2AD8D4B7EB9DDC0E2 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/cache/ftcache.c */; };
+		803A8AB0AE39464CB0F16806 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/imconfig_unity.h */ = {isa = PBXBuildFile; fileRef = 2A997F4CABE84279814EB7E6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/imconfig_unity.h */; };
+		81807558A56F422A83386BB6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui.cpp */ = {isa = PBXBuildFile; fileRef = 4300FA0321B6479883182B80 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui.cpp */; };
+		81F118DAC105490E9ABE31F7 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftmoderr.h */ = {isa = PBXBuildFile; fileRef = 01BD0C00F2784497868C2DCA /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftmoderr.h */; };
+		82CED8CD5330412E95F8D0E1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftgzip.h */ = {isa = PBXBuildFile; fileRef = A623217D63504731AEAC69B7 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftgzip.h */; };
+		84009B69DAF94D23B9EA73AA /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/sfnt/sfnt.c */ = {isa = PBXBuildFile; fileRef = DD4251E2AA1B420EB05454B1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/sfnt/sfnt.c */; };
+		8418C69E94A7446F8DE3D7A2 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftpfr.h */ = {isa = PBXBuildFile; fileRef = 8368981CE9E74E4DB83666BB /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftpfr.h */; };
+		859BAD0B3CA2430DA5B989DE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/gzip/ftgzip.c */ = {isa = PBXBuildFile; fileRef = AE7CACC337E24DD2822E7E64 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/gzip/ftgzip.c */; };
+		8812CC6E720A48649DFDDC2A /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftparams.h */ = {isa = PBXBuildFile; fileRef = ABD18BB484D146D4BFC441C8 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftparams.h */; };
+		8969F10D20B24F7E92DF495B /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftcalc.h */ = {isa = PBXBuildFile; fileRef = BA6EEF50C546495E80105393 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftcalc.h */; };
+		8C830577A85640B5A74ED886 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/config/ftstdlib.h */ = {isa = PBXBuildFile; fileRef = 25B3C4780A894C1E96BD19A4 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/config/ftstdlib.h */; };
+		9410D37ABD064A4B9DEE71BC /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C604206C05C7446E93D73565 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/CMakeLists.txt */; };
+		94820A8567F24AE7A95CA82C /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftmm.h */ = {isa = PBXBuildFile; fileRef = 4CF88B70EA2D4409A75EAAD2 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftmm.h */; };
+		96BF1B4032EB48878E1C1A1C /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/fttrace.h */ = {isa = PBXBuildFile; fileRef = 4ED2ACEB02A14D7D81BB58B9 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/fttrace.h */; };
+		9869790A62C94E7BAD18DCD5 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftbbox.h */ = {isa = PBXBuildFile; fileRef = BD6AAC1CB2A746E584FB0345 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftbbox.h */; };
+		9B032D33B50D476EAB2F9176 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/t1tables.h */ = {isa = PBXBuildFile; fileRef = DA34EEB93E1E46059F25B7B8 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/t1tables.h */; };
+		9B4BEEB4CC9044749ED51288 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftcid.c */ = {isa = PBXBuildFile; fileRef = AEB1160233224E378BE421BE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftcid.c */; };
+		A21E85EE6B0E4A96BF05D7E3 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftgasp.c */ = {isa = PBXBuildFile; fileRef = 778646B411BF4E72943F5525 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftgasp.c */; };
+		A3C59034400A4B84AF167E6A /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/psaux.h */ = {isa = PBXBuildFile; fileRef = 3416DF6EAD4B4BBB93CE9CF7 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/psaux.h */; };
+		A44A3B5D6B1A4ACF92AF7DE3 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftlzw.h */ = {isa = PBXBuildFile; fileRef = AEDE386A0C5D4861AF7FD09D /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftlzw.h */; };
+		A6480961EFFC4A1BAD717FB1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftoutln.h */ = {isa = PBXBuildFile; fileRef = 402BDC6165EB41B89CD2DDDC /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftoutln.h */; };
+		A6D72316C0294DF8B6CB033B /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/psaux/psaux.c */ = {isa = PBXBuildFile; fileRef = 5F6E2E4A26364CF08BCB5F97 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/psaux/psaux.c */; };
+		A75F584345FB4E3E9A97C9FC /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/fterrors.h */ = {isa = PBXBuildFile; fileRef = 5B61B1CAFF0D407BB582CB0B /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/fterrors.h */; };
+		A9F35AFD82754D79AC0BE704 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/fttype1.c */ = {isa = PBXBuildFile; fileRef = 261F1759A6A84FD19B6DEEE9 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/fttype1.c */; };
+		AA053ADEF4494C7AB1DD38ED /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/CMakeFiles/cimgui-freetype.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 290A1D13156D48C8892AC3EE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/CMakeFiles/cimgui-freetype.dir/Info.plist */; };
+		AD3F13535E854F9D960FF535 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftfntfmt.h */ = {isa = PBXBuildFile; fileRef = 1CE200FFCD904784BB795AF2 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftfntfmt.h */; };
+		ADD10366D1C945D894F506A2 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/cimgui_freetype.cpp */ = {isa = PBXBuildFile; fileRef = D28034FEB3D2442187D743AE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/cimgui_freetype.cpp */; };
+		AECBF542C98643CA8582A6EE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftcid.h */ = {isa = PBXBuildFile; fileRef = EFC7083F051E405594E10E0C /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftcid.h */; };
+		B40FED08B9C04FF5A4A89A88 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftdriver.h */ = {isa = PBXBuildFile; fileRef = B434B5D1190A4AB4AA7C9541 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftdriver.h */; };
+		B4ECAE70DA4040F7B1F6D7F6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/plugin_custom_assert.cpp */ = {isa = PBXBuildFile; fileRef = E479212808FD40C38B2D61E6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/plugin_custom_assert.cpp */; };
+		B5591D0A4E694204A87572C2 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftchapters.h */ = {isa = PBXBuildFile; fileRef = E90E07EBB3984A95B15EF1D6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftchapters.h */; };
+		B69CF4D7834B49C48DA4D54F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftmemory.h */ = {isa = PBXBuildFile; fileRef = 20ADE6DA3A9A4B878AF6A869 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftmemory.h */; };
+		BA296D2AFEC749058A623E7B /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftpsprop.h */ = {isa = PBXBuildFile; fileRef = 7FC50B277C644274BA70C054 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftpsprop.h */; };
+		BA9673DF5FE04EB9A2EB4FD6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/misc/freetype/imgui_freetype.h */ = {isa = PBXBuildFile; fileRef = B3CD3360BE0E4F02AB454CA6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/misc/freetype/imgui_freetype.h */; };
+		C154CA01E8E34BC3B90DA322 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftbdf.h */ = {isa = PBXBuildFile; fileRef = 820D690EDD3446249F0A9D7C /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftbdf.h */; };
+		C1993F9B386B44F7ADEEEC30 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/tttags.h */ = {isa = PBXBuildFile; fileRef = 069977C8F03A4421A562D954 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/tttags.h */; };
+		C3B6668648864563B0A694F2 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftdebug.h */ = {isa = PBXBuildFile; fileRef = 1B607A2D21044B32A4763C7B /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftdebug.h */; };
+		C3F205A9A3194917B1D76D5E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftbzip2.h */ = {isa = PBXBuildFile; fileRef = 8B6D0B3AB7A8415EB8C78CE3 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftbzip2.h */; };
+		C4F0EA056FCA487DA391DD37 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/freetype2/CMakeFiles/freetype.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 21259735359B4078ADC0CB54 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/freetype2/CMakeFiles/freetype.dir/Info.plist */; };
+		C5EF6AC00B0948E2A3E8FE42 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftglyph.h */ = {isa = PBXBuildFile; fileRef = 4AD8D6FB9A0D494D963AF7FB /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftglyph.h */; };
+		C9DE418D35AE45A58012EE78 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftfstype.c */ = {isa = PBXBuildFile; fileRef = 9CE19AFBA0EE4A25AD5C1795 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftfstype.c */; };
+		CA913DAD3B6D443F8398C87E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/bdf/bdf.c */ = {isa = PBXBuildFile; fileRef = E36824463FA0410E8EEE0791 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/bdf/bdf.c */; };
+		D4E15BFD4DBC454BA1C3C2EE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftmm.c */ = {isa = PBXBuildFile; fileRef = DBD3BBD18DFA4BD382978E96 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftmm.c */; };
+		DAF41A573F2C40D3B29559B3 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftwinfnt.h */ = {isa = PBXBuildFile; fileRef = 231BD94005BC430481A82FEC /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftwinfnt.h */; };
+		DBE9DE18C4F349D5943B5A71 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftinit.c */ = {isa = PBXBuildFile; fileRef = AC974063A754426D9C701BC2 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftinit.c */; };
+		DBF87FBAF9F844AC96A64E85 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/internal.h */ = {isa = PBXBuildFile; fileRef = 0C192BD099314A8E98602363 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/internal.h */; };
+		DE28749E49BD4E8792346D78 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/pshints.h */ = {isa = PBXBuildFile; fileRef = 6DA1B65832AD47B1B862ED1C /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/pshints.h */; };
+		E00A72BC5F994B1397E664D2 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftstroke.c */ = {isa = PBXBuildFile; fileRef = 8CAE240DB8C94612B704E9E1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftstroke.c */; };
+		E0CEE630743B46A6A1C1DC12 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity/CMakeFiles/cimgui-unity.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 534B46EB6044438AA152F497 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity/CMakeFiles/cimgui-unity.dir/Info.plist */; };
+		E652ED32FF0E4C8F96157B04 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftrender.h */ = {isa = PBXBuildFile; fileRef = B7515401A38D45B98F5825F7 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftrender.h */; };
+		E82E5D5CF17E4F19BD78DF71 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/autofit/autofit.c */ = {isa = PBXBuildFile; fileRef = DFDDF72B35AF43D1A71BD528 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/autofit/autofit.c */; };
+		E889E43B83EE44AB89B1484E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/type1/type1.c */ = {isa = PBXBuildFile; fileRef = 52D11EA9644047F5BBBB8FF5 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/type1/type1.c */; };
+		E9C47056E2044A629FFEA780 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/autohint.h */ = {isa = PBXBuildFile; fileRef = B81321C034794234BCD4F58B /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/autohint.h */; };
+		EA5DDBCF23C94C589FB1D9B1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/lzw/ftlzw.c */ = {isa = PBXBuildFile; fileRef = FA0E91263C0A4E11AC1BC946 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/lzw/ftlzw.c */; };
+		ECD56B9077434151BD9AAEC1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/cimgui.cpp */ = {isa = PBXBuildFile; fileRef = 2D0E954F765E4FA690A3A85E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/cimgui.cpp */; };
+		ECFC96F16FB14DA6AB2E9F94 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/cff/cff.c */ = {isa = PBXBuildFile; fileRef = 25F8B8CBE04E4C5DA9199302 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/cff/cff.c */; };
+		ED2917A6BC2C40528D27474C /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/wofftypes.h */ = {isa = PBXBuildFile; fileRef = F1BDAC2BBFD3427BBC4889DA /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/wofftypes.h */; };
+		EE2BA915CDE4447D88F46BB1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/fthash.h */ = {isa = PBXBuildFile; fileRef = 028DC26E0F6F44E996292BBE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/fthash.h */; };
+		EE386A6F1A4F4412B4CA1186 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/winfonts/winfnt.c */ = {isa = PBXBuildFile; fileRef = 323F36A9C00E4D4C9D303E12 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/winfonts/winfnt.c */; };
+		F12D8C52BB364575959B51D9 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftserv.h */ = {isa = PBXBuildFile; fileRef = CA21412DF64B497A805BE860 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftserv.h */; };
+		F18B443735C3413285B6FD20 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftwinfnt.c */ = {isa = PBXBuildFile; fileRef = 16FCEBE940594C96809E137B /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftwinfnt.c */; };
+		F3BD4D857728471AA517C92A /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftcolor.h */ = {isa = PBXBuildFile; fileRef = 70877F6EE20C4C14808AFDEB /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftcolor.h */; };
+		F555C9FDB7774ED7883926D4 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/truetype/truetype.c */ = {isa = PBXBuildFile; fileRef = ADD905904D2C4156B34E4799 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/truetype/truetype.c */; };
+		F5CEA1A95DD44C92A192F626 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/cffotypes.h */ = {isa = PBXBuildFile; fileRef = D0715AC2522042E0A68F0C97 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/cffotypes.h */; };
+		F89CC84914CB4ED390400BF6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftstroke.h */ = {isa = PBXBuildFile; fileRef = A1037D909B9A4420BD1FFC19 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftstroke.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2A86A9ABFE6D43C7ABF45F96 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		791AECD313AF4A598B6F2A16 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		8D78F710570044A0BA105BBA /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		A77E273A59214B1087BB4E4B /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2A1D5A57ECD84033B8FDA997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B2B11E05CD34239BBD86503 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63697F7D2D2A430587C780E0;
+			remoteInfo = ZERO_CHECK;
+		};
+		2D8A540BC48C42C8ACE381DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B2B11E05CD34239BBD86503 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B89E7EA69384134B85AF407;
+			remoteInfo = ALL_BUILD;
+		};
+		3D45193ACCCB4325A2581458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B2B11E05CD34239BBD86503 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8DB50A7E75A4D1AA7D1A0DD;
+			remoteInfo = "cimgui-unity";
+		};
+		4536CD57422F43ADBF3FB546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B2B11E05CD34239BBD86503 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B89E7EA69384134B85AF407;
+			remoteInfo = ALL_BUILD;
+		};
+		65B37033349941DFBECB2403 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B2B11E05CD34239BBD86503 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A282153B6293453B8D88C586;
+			remoteInfo = freetype;
+		};
+		820ED44B49224A3BB81EB1E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B2B11E05CD34239BBD86503 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 337FC69FB1C54DB784A0092C;
+			remoteInfo = "cimgui-freetype";
+		};
+		8C97479F3B894BFF822D9309 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B2B11E05CD34239BBD86503 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8DB50A7E75A4D1AA7D1A0DD;
+			remoteInfo = "cimgui-unity";
+		};
+		F89170752B494FEDAF8452BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B2B11E05CD34239BBD86503 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A282153B6293453B8D88C586;
+			remoteInfo = freetype;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01BD0C00F2784497868C2DCA /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftmoderr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftmoderr.h; path = "cimgui-freetype/freetype2/include/freetype/ftmoderr.h"; sourceTree = SOURCE_ROOT; };
+		028DC26E0F6F44E996292BBE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/fthash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fthash.h; path = "cimgui-freetype/freetype2/include/freetype/internal/fthash.h"; sourceTree = SOURCE_ROOT; };
+		0686B8E0DF174F4FA2AFAAA8 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftgasp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftgasp.h; path = "cimgui-freetype/freetype2/include/freetype/ftgasp.h"; sourceTree = SOURCE_ROOT; };
+		069977C8F03A4421A562D954 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/tttags.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tttags.h; path = "cimgui-freetype/freetype2/include/freetype/tttags.h"; sourceTree = SOURCE_ROOT; };
+		06C8A169BE4F43A08F9DA119 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/smooth/smooth.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = smooth.c; path = "cimgui-freetype/freetype2/src/smooth/smooth.c"; sourceTree = SOURCE_ROOT; };
+		086FD09D4BAA45D399E6F422 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_demo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_demo.cpp; path = cimgui/imgui/imgui_demo.cpp; sourceTree = SOURCE_ROOT; };
+		0A0E5F3BAB964F81B62EE6BC /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftsynth.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftsynth.h; path = "cimgui-freetype/freetype2/include/freetype/ftsynth.h"; sourceTree = SOURCE_ROOT; };
+		0BA3A5A76F974375B634F0BE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftglyph.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftglyph.c; path = "cimgui-freetype/freetype2/src/base/ftglyph.c"; sourceTree = SOURCE_ROOT; };
+		0C192BD099314A8E98602363 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = "cimgui-freetype/freetype2/include/freetype/internal/internal.h"; sourceTree = SOURCE_ROOT; };
+		0EB7A61C76C64426947D494F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/type42/type42.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = type42.c; path = "cimgui-freetype/freetype2/src/type42/type42.c"; sourceTree = SOURCE_ROOT; };
+		124187C9CE974A45923F414F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/raster/raster.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = raster.c; path = "cimgui-freetype/freetype2/src/raster/raster.c"; sourceTree = SOURCE_ROOT; };
+		16FCEBE940594C96809E137B /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftwinfnt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftwinfnt.c; path = "cimgui-freetype/freetype2/src/base/ftwinfnt.c"; sourceTree = SOURCE_ROOT; };
+		17C84CB0FB4A427CA1E7FF00 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ttnameid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ttnameid.h; path = "cimgui-freetype/freetype2/include/freetype/ttnameid.h"; sourceTree = SOURCE_ROOT; };
+		190314D8126E4B758D16435E /* cimgui-freetype */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libcimgui-freetype.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C203F2AD8D4B7EB9DDC0E2 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/cache/ftcache.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftcache.c; path = "cimgui-freetype/freetype2/src/cache/ftcache.c"; sourceTree = SOURCE_ROOT; };
+		1A984FC5CFF94326AD01220F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftpfr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftpfr.c; path = "cimgui-freetype/freetype2/src/base/ftpfr.c"; sourceTree = SOURCE_ROOT; };
+		1B607A2D21044B32A4763C7B /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftdebug.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftdebug.h; path = "cimgui-freetype/freetype2/include/freetype/internal/ftdebug.h"; sourceTree = SOURCE_ROOT; };
+		1CE200FFCD904784BB795AF2 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftfntfmt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftfntfmt.h; path = "cimgui-freetype/freetype2/include/freetype/ftfntfmt.h"; sourceTree = SOURCE_ROOT; };
+		1FFCA821E74647DEB142B6C9 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftotval.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftotval.h; path = "cimgui-freetype/freetype2/include/freetype/ftotval.h"; sourceTree = SOURCE_ROOT; };
+		20ADE6DA3A9A4B878AF6A869 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftmemory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftmemory.h; path = "cimgui-freetype/freetype2/include/freetype/internal/ftmemory.h"; sourceTree = SOURCE_ROOT; };
+		21190B6437534565A34F427E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/cfftypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cfftypes.h; path = "cimgui-freetype/freetype2/include/freetype/internal/cfftypes.h"; sourceTree = SOURCE_ROOT; };
+		21259735359B4078ADC0CB54 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/freetype2/CMakeFiles/freetype.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "build/iOS/Release/cimgui-freetype/freetype2/CMakeFiles/freetype.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		220A8D85E3FB494C86060936 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftotval.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftotval.c; path = "cimgui-freetype/freetype2/src/base/ftotval.c"; sourceTree = SOURCE_ROOT; };
+		231BD94005BC430481A82FEC /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftwinfnt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftwinfnt.h; path = "cimgui-freetype/freetype2/include/freetype/ftwinfnt.h"; sourceTree = SOURCE_ROOT; };
+		23881FCCBDC1461D89B67D1E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/sfnt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sfnt.h; path = "cimgui-freetype/freetype2/include/freetype/internal/sfnt.h"; sourceTree = SOURCE_ROOT; };
+		24130F2109C04234A4961B77 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/tttables.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tttables.h; path = "cimgui-freetype/freetype2/include/freetype/tttables.h"; sourceTree = SOURCE_ROOT; };
+		243A67F0E9DC45EC8A6EEBE1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/config/ftconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftconfig.h; path = "cimgui-freetype/freetype2/include/freetype/config/ftconfig.h"; sourceTree = SOURCE_ROOT; };
+		25B3C4780A894C1E96BD19A4 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/config/ftstdlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftstdlib.h; path = "cimgui-freetype/freetype2/include/freetype/config/ftstdlib.h"; sourceTree = SOURCE_ROOT; };
+		25F8B8CBE04E4C5DA9199302 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/cff/cff.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cff.c; path = "cimgui-freetype/freetype2/src/cff/cff.c"; sourceTree = SOURCE_ROOT; };
+		261F1759A6A84FD19B6DEEE9 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/fttype1.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fttype1.c; path = "cimgui-freetype/freetype2/src/base/fttype1.c"; sourceTree = SOURCE_ROOT; };
+		290A1D13156D48C8892AC3EE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/CMakeFiles/cimgui-freetype.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "build/iOS/Release/cimgui-freetype/CMakeFiles/cimgui-freetype.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		2A997F4CABE84279814EB7E6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/imconfig_unity.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imconfig_unity.h; path = "cimgui-unity/imconfig_unity.h"; sourceTree = SOURCE_ROOT; };
+		2D0E954F765E4FA690A3A85E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/cimgui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cimgui.cpp; path = cimgui/cimgui.cpp; sourceTree = SOURCE_ROOT; };
+		323F36A9C00E4D4C9D303E12 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/winfonts/winfnt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = winfnt.c; path = "cimgui-freetype/freetype2/src/winfonts/winfnt.c"; sourceTree = SOURCE_ROOT; };
+		3416DF6EAD4B4BBB93CE9CF7 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/psaux.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = psaux.h; path = "cimgui-freetype/freetype2/include/freetype/internal/psaux.h"; sourceTree = SOURCE_ROOT; };
+		374443E59AAB4D4D83981B35 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftsynth.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftsynth.c; path = "cimgui-freetype/freetype2/src/base/ftsynth.c"; sourceTree = SOURCE_ROOT; };
+		402BDC6165EB41B89CD2DDDC /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftoutln.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftoutln.h; path = "cimgui-freetype/freetype2/include/freetype/ftoutln.h"; sourceTree = SOURCE_ROOT; };
+		4300FA0321B6479883182B80 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui.cpp; path = cimgui/imgui/imgui.cpp; sourceTree = SOURCE_ROOT; };
+		44FD67ED71194A359F8E85FC /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_draw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_draw.cpp; path = cimgui/imgui/imgui_draw.cpp; sourceTree = SOURCE_ROOT; };
+		46309640CF704142AF285CDA /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftgxval.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftgxval.c; path = "cimgui-freetype/freetype2/src/base/ftgxval.c"; sourceTree = SOURCE_ROOT; };
+		484BBC87CCDF4F0B82F43BB1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftpatent.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftpatent.c; path = "cimgui-freetype/freetype2/src/base/ftpatent.c"; sourceTree = SOURCE_ROOT; };
+		4AD8D6FB9A0D494D963AF7FB /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftglyph.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftglyph.h; path = "cimgui-freetype/freetype2/include/freetype/ftglyph.h"; sourceTree = SOURCE_ROOT; };
+		4CF88B70EA2D4409A75EAAD2 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftmm.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftmm.h; path = "cimgui-freetype/freetype2/include/freetype/ftmm.h"; sourceTree = SOURCE_ROOT; };
+		4DCB82FE584447D3AFB33DA6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/pfr/pfr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pfr.c; path = "cimgui-freetype/freetype2/src/pfr/pfr.c"; sourceTree = SOURCE_ROOT; };
+		4ED2ACEB02A14D7D81BB58B9 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/fttrace.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fttrace.h; path = "cimgui-freetype/freetype2/include/freetype/internal/fttrace.h"; sourceTree = SOURCE_ROOT; };
+		52D11EA9644047F5BBBB8FF5 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/type1/type1.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = type1.c; path = "cimgui-freetype/freetype2/src/type1/type1.c"; sourceTree = SOURCE_ROOT; };
+		534B46EB6044438AA152F497 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity/CMakeFiles/cimgui-unity.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "build/iOS/Release/cimgui-unity/CMakeFiles/cimgui-unity.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		547B0D39CFA3436098F1937C /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/pshinter/pshinter.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pshinter.c; path = "cimgui-freetype/freetype2/src/pshinter/pshinter.c"; sourceTree = SOURCE_ROOT; };
+		5661E9FE317447D38055AAB6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/ft2build.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ft2build.h; path = "cimgui-freetype/freetype2/include/ft2build.h"; sourceTree = SOURCE_ROOT; };
+		56AA79DA3EF84C82B1E88DB4 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/t1types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = t1types.h; path = "cimgui-freetype/freetype2/include/freetype/internal/t1types.h"; sourceTree = SOURCE_ROOT; };
+		5700F76FFFFB4AD3B40F4C73 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftbitmap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftbitmap.h; path = "cimgui-freetype/freetype2/include/freetype/ftbitmap.h"; sourceTree = SOURCE_ROOT; };
+		57AC0C553C58497CA55FC773 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "cimgui-unity/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		57B7ED5338D3475FAC57145E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftbitmap.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbitmap.c; path = "cimgui-freetype/freetype2/src/base/ftbitmap.c"; sourceTree = SOURCE_ROOT; };
+		5B61B1CAFF0D407BB582CB0B /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/fterrors.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fterrors.h; path = "cimgui-freetype/freetype2/include/freetype/fterrors.h"; sourceTree = SOURCE_ROOT; };
+		5F6E2E4A26364CF08BCB5F97 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/psaux/psaux.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = psaux.c; path = "cimgui-freetype/freetype2/src/psaux/psaux.c"; sourceTree = SOURCE_ROOT; };
+		60CC5D53DF71434B88291E99 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftgxval.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftgxval.h; path = "cimgui-freetype/freetype2/include/freetype/ftgxval.h"; sourceTree = SOURCE_ROOT; };
+		622934236CF641FDAAFD85E8 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/fttrigon.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fttrigon.h; path = "cimgui-freetype/freetype2/include/freetype/fttrigon.h"; sourceTree = SOURCE_ROOT; };
+		63EC894F27FE4E2983F6DA73 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/pcf/pcf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pcf.c; path = "cimgui-freetype/freetype2/src/pcf/pcf.c"; sourceTree = SOURCE_ROOT; };
+		65B0DAAF15444E12B5B50185 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/config/ftheader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftheader.h; path = "cimgui-freetype/freetype2/include/freetype/config/ftheader.h"; sourceTree = SOURCE_ROOT; };
+		6BC808578F42499B98ABA777 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftsizes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftsizes.h; path = "cimgui-freetype/freetype2/include/freetype/ftsizes.h"; sourceTree = SOURCE_ROOT; };
+		6DA1B65832AD47B1B862ED1C /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/pshints.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pshints.h; path = "cimgui-freetype/freetype2/include/freetype/internal/pshints.h"; sourceTree = SOURCE_ROOT; };
+		70877F6EE20C4C14808AFDEB /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftcolor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftcolor.h; path = "cimgui-freetype/freetype2/include/freetype/ftcolor.h"; sourceTree = SOURCE_ROOT; };
+		778646B411BF4E72943F5525 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftgasp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftgasp.c; path = "cimgui-freetype/freetype2/src/base/ftgasp.c"; sourceTree = SOURCE_ROOT; };
+		7AA3115AF01F45B480AC565F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/bzip2/ftbzip2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbzip2.c; path = "cimgui-freetype/freetype2/src/bzip2/ftbzip2.c"; sourceTree = SOURCE_ROOT; };
+		7B3A0F5107344ACEB7B296B1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/psnames/psnames.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = psnames.c; path = "cimgui-freetype/freetype2/src/psnames/psnames.c"; sourceTree = SOURCE_ROOT; };
+		7FC50B277C644274BA70C054 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftpsprop.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftpsprop.h; path = "cimgui-freetype/freetype2/include/freetype/internal/ftpsprop.h"; sourceTree = SOURCE_ROOT; };
+		820D690EDD3446249F0A9D7C /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftbdf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftbdf.h; path = "cimgui-freetype/freetype2/include/freetype/ftbdf.h"; sourceTree = SOURCE_ROOT; };
+		8368981CE9E74E4DB83666BB /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftpfr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftpfr.h; path = "cimgui-freetype/freetype2/include/freetype/ftpfr.h"; sourceTree = SOURCE_ROOT; };
+		89790FC112BE4666A131163E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftbbox.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbbox.c; path = "cimgui-freetype/freetype2/src/base/ftbbox.c"; sourceTree = SOURCE_ROOT; };
+		89B4670D8129454A94AC8987 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftcache.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftcache.h; path = "cimgui-freetype/freetype2/include/freetype/ftcache.h"; sourceTree = SOURCE_ROOT; };
+		8B4A348684E94D9B89A6DA0B /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftsystem.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftsystem.h; path = "cimgui-freetype/freetype2/include/freetype/ftsystem.h"; sourceTree = SOURCE_ROOT; };
+		8B6D0B3AB7A8415EB8C78CE3 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftbzip2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftbzip2.h; path = "cimgui-freetype/freetype2/include/freetype/ftbzip2.h"; sourceTree = SOURCE_ROOT; };
+		8CAE240DB8C94612B704E9E1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftstroke.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftstroke.c; path = "cimgui-freetype/freetype2/src/base/ftstroke.c"; sourceTree = SOURCE_ROOT; };
+		8F6B57086471407A92CE823F /* cimgui-unity */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libcimgui.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		91BD94E54B144F759CCC316D /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftrfork.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftrfork.h; path = "cimgui-freetype/freetype2/include/freetype/internal/ftrfork.h"; sourceTree = SOURCE_ROOT; };
+		91DBC94378994AD3BB6D2BBA /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/config/ftmodule.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftmodule.h; path = "cimgui-freetype/freetype2/include/freetype/config/ftmodule.h"; sourceTree = SOURCE_ROOT; };
+		989A094A3B1443D0AFC99DE7 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/freetype.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = freetype.h; path = "cimgui-freetype/freetype2/include/freetype/freetype.h"; sourceTree = SOURCE_ROOT; };
+		991E68B6B733449BB849A570 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftdebug.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftdebug.c; path = "cimgui-freetype/freetype2/src/base/ftdebug.c"; sourceTree = SOURCE_ROOT; };
+		9AD19664174145AD94A72D13 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/fttypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fttypes.h; path = "cimgui-freetype/freetype2/include/freetype/fttypes.h"; sourceTree = SOURCE_ROOT; };
+		9B09AEB378544F7B9EF184B4 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftmodapi.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftmodapi.h; path = "cimgui-freetype/freetype2/include/freetype/ftmodapi.h"; sourceTree = SOURCE_ROOT; };
+		9CE19AFBA0EE4A25AD5C1795 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftfstype.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftfstype.c; path = "cimgui-freetype/freetype2/src/base/ftfstype.c"; sourceTree = SOURCE_ROOT; };
+		A1037D909B9A4420BD1FFC19 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftstroke.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftstroke.h; path = "cimgui-freetype/freetype2/include/freetype/ftstroke.h"; sourceTree = SOURCE_ROOT; };
+		A3400871F0FB4851B0C7EC7A /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftimage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftimage.h; path = "cimgui-freetype/freetype2/include/freetype/ftimage.h"; sourceTree = SOURCE_ROOT; };
+		A4A83356B6BB4312B703F173 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/misc/freetype/imgui_freetype.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_freetype.cpp; path = cimgui/imgui/misc/freetype/imgui_freetype.cpp; sourceTree = SOURCE_ROOT; };
+		A5C1688A8DCF49DDBEBB141F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftsystem.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftsystem.c; path = "cimgui-freetype/freetype2/src/base/ftsystem.c"; sourceTree = SOURCE_ROOT; };
+		A623217D63504731AEAC69B7 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftgzip.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftgzip.h; path = "cimgui-freetype/freetype2/include/freetype/ftgzip.h"; sourceTree = SOURCE_ROOT; };
+		A70567889BBA4CF3B19B4EFB /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftlcdfil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftlcdfil.h; path = "cimgui-freetype/freetype2/include/freetype/ftlcdfil.h"; sourceTree = SOURCE_ROOT; };
+		ABD18BB484D146D4BFC441C8 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftparams.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftparams.h; path = "cimgui-freetype/freetype2/include/freetype/ftparams.h"; sourceTree = SOURCE_ROOT; };
+		AC974063A754426D9C701BC2 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftinit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftinit.c; path = "cimgui-freetype/freetype2/src/base/ftinit.c"; sourceTree = SOURCE_ROOT; };
+		ADD905904D2C4156B34E4799 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/truetype/truetype.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = truetype.c; path = "cimgui-freetype/freetype2/src/truetype/truetype.c"; sourceTree = SOURCE_ROOT; };
+		AE7CACC337E24DD2822E7E64 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/gzip/ftgzip.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftgzip.c; path = "cimgui-freetype/freetype2/src/gzip/ftgzip.c"; sourceTree = SOURCE_ROOT; };
+		AEB1160233224E378BE421BE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftcid.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftcid.c; path = "cimgui-freetype/freetype2/src/base/ftcid.c"; sourceTree = SOURCE_ROOT; };
+		AEDE386A0C5D4861AF7FD09D /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftlzw.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftlzw.h; path = "cimgui-freetype/freetype2/include/freetype/ftlzw.h"; sourceTree = SOURCE_ROOT; };
+		B011122D3E594EB69D53EBA6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/tttypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tttypes.h; path = "cimgui-freetype/freetype2/include/freetype/internal/tttypes.h"; sourceTree = SOURCE_ROOT; };
+		B30FC2BACC3342B990FEC7CA /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftsnames.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftsnames.h; path = "cimgui-freetype/freetype2/include/freetype/ftsnames.h"; sourceTree = SOURCE_ROOT; };
+		B3CD3360BE0E4F02AB454CA6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/misc/freetype/imgui_freetype.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imgui_freetype.h; path = cimgui/imgui/misc/freetype/imgui_freetype.h; sourceTree = SOURCE_ROOT; };
+		B434B5D1190A4AB4AA7C9541 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftdriver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftdriver.h; path = "cimgui-freetype/freetype2/include/freetype/ftdriver.h"; sourceTree = SOURCE_ROOT; };
+		B7515401A38D45B98F5825F7 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftrender.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftrender.h; path = "cimgui-freetype/freetype2/include/freetype/ftrender.h"; sourceTree = SOURCE_ROOT; };
+		B81321C034794234BCD4F58B /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/autohint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = autohint.h; path = "cimgui-freetype/freetype2/include/freetype/internal/autohint.h"; sourceTree = SOURCE_ROOT; };
+		B9D17544CF684D5E82821712 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BA6EEF50C546495E80105393 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftcalc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftcalc.h; path = "cimgui-freetype/freetype2/include/freetype/internal/ftcalc.h"; sourceTree = SOURCE_ROOT; };
+		BD6AAC1CB2A746E584FB0345 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftbbox.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftbbox.h; path = "cimgui-freetype/freetype2/include/freetype/ftbbox.h"; sourceTree = SOURCE_ROOT; };
+		BF5CD394416C413893FE93A3 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/fterrdef.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fterrdef.h; path = "cimgui-freetype/freetype2/include/freetype/fterrdef.h"; sourceTree = SOURCE_ROOT; };
+		C19C607E856042B9BFC48C79 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftadvanc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftadvanc.h; path = "cimgui-freetype/freetype2/include/freetype/ftadvanc.h"; sourceTree = SOURCE_ROOT; };
+		C604206C05C7446E93D73565 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "cimgui-freetype/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		C69EFBE535EF4BF39ABB4183 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftlist.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftlist.h; path = "cimgui-freetype/freetype2/include/freetype/ftlist.h"; sourceTree = SOURCE_ROOT; };
+		C6BA6CED13C54F97A9DD712D /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftbdf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbdf.c; path = "cimgui-freetype/freetype2/src/base/ftbdf.c"; sourceTree = SOURCE_ROOT; };
+		C9AAB86CE1B14F0DA87F7B33 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftmac.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftmac.h; path = "cimgui-freetype/freetype2/include/freetype/ftmac.h"; sourceTree = SOURCE_ROOT; };
+		CA01A49AF69643848C01B56E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_widgets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_widgets.cpp; path = cimgui/imgui/imgui_widgets.cpp; sourceTree = SOURCE_ROOT; };
+		CA21412DF64B497A805BE860 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftserv.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftserv.h; path = "cimgui-freetype/freetype2/include/freetype/internal/ftserv.h"; sourceTree = SOURCE_ROOT; };
+		CA242E4876994E8384F62EE9 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftincrem.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftincrem.h; path = "cimgui-freetype/freetype2/include/freetype/ftincrem.h"; sourceTree = SOURCE_ROOT; };
+		D0715AC2522042E0A68F0C97 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/cffotypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cffotypes.h; path = "cimgui-freetype/freetype2/include/freetype/internal/cffotypes.h"; sourceTree = SOURCE_ROOT; };
+		D28034FEB3D2442187D743AE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/cimgui_freetype.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cimgui_freetype.cpp; path = "cimgui-freetype/cimgui_freetype.cpp"; sourceTree = SOURCE_ROOT; };
+		D54354AB6EB34ACC9A56F63E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftstream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftstream.h; path = "cimgui-freetype/freetype2/include/freetype/internal/ftstream.h"; sourceTree = SOURCE_ROOT; };
+		D5F7DD2EF406499ABB833B7F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftdrv.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftdrv.h; path = "cimgui-freetype/freetype2/include/freetype/internal/ftdrv.h"; sourceTree = SOURCE_ROOT; };
+		D76300201852401896415AAB /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftobjs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftobjs.h; path = "cimgui-freetype/freetype2/include/freetype/internal/ftobjs.h"; sourceTree = SOURCE_ROOT; };
+		D9372AFB8CD94C53A5C6420E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftbase.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbase.c; path = "cimgui-freetype/freetype2/src/base/ftbase.c"; sourceTree = SOURCE_ROOT; };
+		DA34EEB93E1E46059F25B7B8 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/t1tables.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = t1tables.h; path = "cimgui-freetype/freetype2/include/freetype/t1tables.h"; sourceTree = SOURCE_ROOT; };
+		DBD3BBD18DFA4BD382978E96 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftmm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftmm.c; path = "cimgui-freetype/freetype2/src/base/ftmm.c"; sourceTree = SOURCE_ROOT; };
+		DC157CCB080E443787A01A7F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "cimgui-freetype/freetype2/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		DD4251E2AA1B420EB05454B1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/sfnt/sfnt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sfnt.c; path = "cimgui-freetype/freetype2/src/sfnt/sfnt.c"; sourceTree = SOURCE_ROOT; };
+		DFDDF72B35AF43D1A71BD528 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/autofit/autofit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = autofit.c; path = "cimgui-freetype/freetype2/src/autofit/autofit.c"; sourceTree = SOURCE_ROOT; };
+		E36824463FA0410E8EEE0791 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/bdf/bdf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bdf.c; path = "cimgui-freetype/freetype2/src/bdf/bdf.c"; sourceTree = SOURCE_ROOT; };
+		E479212808FD40C38B2D61E6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/plugin_custom_assert.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = plugin_custom_assert.cpp; path = "cimgui-unity/plugin_custom_assert.cpp"; sourceTree = SOURCE_ROOT; };
+		E90E07EBB3984A95B15EF1D6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftchapters.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftchapters.h; path = "cimgui-freetype/freetype2/include/freetype/ftchapters.h"; sourceTree = SOURCE_ROOT; };
+		EAE8EDBC1B45487EB1554334 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/config/ftoption.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftoption.h; path = "cimgui-freetype/freetype2/include/freetype/config/ftoption.h"; sourceTree = SOURCE_ROOT; };
+		EFC7083F051E405594E10E0C /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftcid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftcid.h; path = "cimgui-freetype/freetype2/include/freetype/ftcid.h"; sourceTree = SOURCE_ROOT; };
+		F1BDAC2BBFD3427BBC4889DA /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/wofftypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = wofftypes.h; path = "cimgui-freetype/freetype2/include/freetype/internal/wofftypes.h"; sourceTree = SOURCE_ROOT; };
+		F317CEB51126412E9647A920 /* freetype */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libfreetyped.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6480F9A6A44406BBB1291AF /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftvalid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftvalid.h; path = "cimgui-freetype/freetype2/include/freetype/internal/ftvalid.h"; sourceTree = SOURCE_ROOT; };
+		F78D735C8B934609A5ECB25F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftgloadr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftgloadr.h; path = "cimgui-freetype/freetype2/include/freetype/internal/ftgloadr.h"; sourceTree = SOURCE_ROOT; };
+		FA0D6E0C65834F719D0EBEFE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/cid/type1cid.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = type1cid.c; path = "cimgui-freetype/freetype2/src/cid/type1cid.c"; sourceTree = SOURCE_ROOT; };
+		FA0E91263C0A4E11AC1BC946 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/lzw/ftlzw.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftlzw.c; path = "cimgui-freetype/freetype2/src/lzw/ftlzw.c"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D0419E900DE4040AA853090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262B7EF6B8B84E2B89B2B42A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AEA62241E734011A33012FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B69AC4E9FF2413190507CC3 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D28034FEB3D2442187D743AE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/cimgui_freetype.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		0F6EDE7902D24126AB989EAA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2AB23F1372DC442799FD9474 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		321E55CC0C484011AD48FA9F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A997F4CABE84279814EB7E6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/imconfig_unity.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		3FDAF8507A12456DBB7C76F8 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				243A67F0E9DC45EC8A6EEBE1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/config/ftconfig.h */,
+				65B0DAAF15444E12B5B50185 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/config/ftheader.h */,
+				91DBC94378994AD3BB6D2BBA /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/config/ftmodule.h */,
+				EAE8EDBC1B45487EB1554334 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/config/ftoption.h */,
+				25B3C4780A894C1E96BD19A4 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/config/ftstdlib.h */,
+				989A094A3B1443D0AFC99DE7 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/freetype.h */,
+				C19C607E856042B9BFC48C79 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftadvanc.h */,
+				BD6AAC1CB2A746E584FB0345 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftbbox.h */,
+				820D690EDD3446249F0A9D7C /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftbdf.h */,
+				5700F76FFFFB4AD3B40F4C73 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftbitmap.h */,
+				8B6D0B3AB7A8415EB8C78CE3 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftbzip2.h */,
+				89B4670D8129454A94AC8987 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftcache.h */,
+				E90E07EBB3984A95B15EF1D6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftchapters.h */,
+				EFC7083F051E405594E10E0C /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftcid.h */,
+				70877F6EE20C4C14808AFDEB /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftcolor.h */,
+				B434B5D1190A4AB4AA7C9541 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftdriver.h */,
+				BF5CD394416C413893FE93A3 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/fterrdef.h */,
+				5B61B1CAFF0D407BB582CB0B /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/fterrors.h */,
+				1CE200FFCD904784BB795AF2 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftfntfmt.h */,
+				0686B8E0DF174F4FA2AFAAA8 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftgasp.h */,
+				4AD8D6FB9A0D494D963AF7FB /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftglyph.h */,
+				60CC5D53DF71434B88291E99 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftgxval.h */,
+				A623217D63504731AEAC69B7 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftgzip.h */,
+				A3400871F0FB4851B0C7EC7A /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftimage.h */,
+				CA242E4876994E8384F62EE9 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftincrem.h */,
+				A70567889BBA4CF3B19B4EFB /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftlcdfil.h */,
+				C69EFBE535EF4BF39ABB4183 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftlist.h */,
+				AEDE386A0C5D4861AF7FD09D /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftlzw.h */,
+				C9AAB86CE1B14F0DA87F7B33 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftmac.h */,
+				4CF88B70EA2D4409A75EAAD2 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftmm.h */,
+				9B09AEB378544F7B9EF184B4 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftmodapi.h */,
+				01BD0C00F2784497868C2DCA /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftmoderr.h */,
+				1FFCA821E74647DEB142B6C9 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftotval.h */,
+				402BDC6165EB41B89CD2DDDC /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftoutln.h */,
+				ABD18BB484D146D4BFC441C8 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftparams.h */,
+				8368981CE9E74E4DB83666BB /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftpfr.h */,
+				B7515401A38D45B98F5825F7 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftrender.h */,
+				6BC808578F42499B98ABA777 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftsizes.h */,
+				B30FC2BACC3342B990FEC7CA /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftsnames.h */,
+				A1037D909B9A4420BD1FFC19 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftstroke.h */,
+				0A0E5F3BAB964F81B62EE6BC /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftsynth.h */,
+				8B4A348684E94D9B89A6DA0B /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftsystem.h */,
+				622934236CF641FDAAFD85E8 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/fttrigon.h */,
+				9AD19664174145AD94A72D13 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/fttypes.h */,
+				231BD94005BC430481A82FEC /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ftwinfnt.h */,
+				B81321C034794234BCD4F58B /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/autohint.h */,
+				D0715AC2522042E0A68F0C97 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/cffotypes.h */,
+				21190B6437534565A34F427E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/cfftypes.h */,
+				BA6EEF50C546495E80105393 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftcalc.h */,
+				1B607A2D21044B32A4763C7B /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftdebug.h */,
+				D5F7DD2EF406499ABB833B7F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftdrv.h */,
+				F78D735C8B934609A5ECB25F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftgloadr.h */,
+				028DC26E0F6F44E996292BBE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/fthash.h */,
+				20ADE6DA3A9A4B878AF6A869 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftmemory.h */,
+				D76300201852401896415AAB /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftobjs.h */,
+				7FC50B277C644274BA70C054 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftpsprop.h */,
+				91BD94E54B144F759CCC316D /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftrfork.h */,
+				CA21412DF64B497A805BE860 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftserv.h */,
+				D54354AB6EB34ACC9A56F63E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftstream.h */,
+				4ED2ACEB02A14D7D81BB58B9 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/fttrace.h */,
+				F6480F9A6A44406BBB1291AF /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/ftvalid.h */,
+				0C192BD099314A8E98602363 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/internal.h */,
+				3416DF6EAD4B4BBB93CE9CF7 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/psaux.h */,
+				6DA1B65832AD47B1B862ED1C /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/pshints.h */,
+				23881FCCBDC1461D89B67D1E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/sfnt.h */,
+				56AA79DA3EF84C82B1E88DB4 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/t1types.h */,
+				B011122D3E594EB69D53EBA6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/tttypes.h */,
+				F1BDAC2BBFD3427BBC4889DA /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/internal/wofftypes.h */,
+				DA34EEB93E1E46059F25B7B8 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/t1tables.h */,
+				17C84CB0FB4A427CA1E7FF00 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/ttnameid.h */,
+				24130F2109C04234A4961B77 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/tttables.h */,
+				069977C8F03A4421A562D954 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/freetype/tttags.h */,
+				5661E9FE317447D38055AAB6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include/ft2build.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		4BBB04380840477ABCCF8001 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				534B46EB6044438AA152F497 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity/CMakeFiles/cimgui-unity.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5262A4676E0A48CF9EC19216 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				796BC14AE39440C8BC45675F /* CMake Rules */,
+				B9D17544CF684D5E82821712 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		66328196DDDC40008D3F18AB /* freetype */ = {
+			isa = PBXGroup;
+			children = (
+				3FDAF8507A12456DBB7C76F8 /* Header Files */,
+				83D7919BFC604B26BD010EFF /* Source Files */,
+				DF590703B4DD4DC9A0026C22 /* Resources */,
+				DC157CCB080E443787A01A7F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/CMakeLists.txt */,
+			);
+			name = freetype;
+			sourceTree = "<group>";
+		};
+		6FF0FAEC8BB043BBAD366DD1 /* cimgui-unity */ = {
+			isa = PBXGroup;
+			children = (
+				D671120ACA54452781C57A57 /* Source Files */,
+				321E55CC0C484011AD48FA9F /* Header Files */,
+				4BBB04380840477ABCCF8001 /* Resources */,
+				57AC0C553C58497CA55FC773 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/CMakeLists.txt */,
+			);
+			name = "cimgui-unity";
+			sourceTree = "<group>";
+		};
+		796BC14AE39440C8BC45675F /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7C8E0FC5BD8641F9868DD655 /* cimgui-freetype */ = {
+			isa = PBXGroup;
+			children = (
+				0B69AC4E9FF2413190507CC3 /* Source Files */,
+				92C0130F426848B49F36F037 /* imgui-freetype */,
+				A206FEBCD4924454A6D49F19 /* Resources */,
+				C604206C05C7446E93D73565 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/CMakeLists.txt */,
+			);
+			name = "cimgui-freetype";
+			sourceTree = "<group>";
+		};
+		83D7919BFC604B26BD010EFF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFDDF72B35AF43D1A71BD528 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/autofit/autofit.c */,
+				D9372AFB8CD94C53A5C6420E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftbase.c */,
+				89790FC112BE4666A131163E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftbbox.c */,
+				C6BA6CED13C54F97A9DD712D /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftbdf.c */,
+				57B7ED5338D3475FAC57145E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftbitmap.c */,
+				AEB1160233224E378BE421BE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftcid.c */,
+				991E68B6B733449BB849A570 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftdebug.c */,
+				9CE19AFBA0EE4A25AD5C1795 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftfstype.c */,
+				778646B411BF4E72943F5525 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftgasp.c */,
+				0BA3A5A76F974375B634F0BE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftglyph.c */,
+				46309640CF704142AF285CDA /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftgxval.c */,
+				AC974063A754426D9C701BC2 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftinit.c */,
+				DBD3BBD18DFA4BD382978E96 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftmm.c */,
+				220A8D85E3FB494C86060936 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftotval.c */,
+				484BBC87CCDF4F0B82F43BB1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftpatent.c */,
+				1A984FC5CFF94326AD01220F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftpfr.c */,
+				8CAE240DB8C94612B704E9E1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftstroke.c */,
+				374443E59AAB4D4D83981B35 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftsynth.c */,
+				A5C1688A8DCF49DDBEBB141F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftsystem.c */,
+				261F1759A6A84FD19B6DEEE9 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/fttype1.c */,
+				16FCEBE940594C96809E137B /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftwinfnt.c */,
+				E36824463FA0410E8EEE0791 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/bdf/bdf.c */,
+				7AA3115AF01F45B480AC565F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/bzip2/ftbzip2.c */,
+				19C203F2AD8D4B7EB9DDC0E2 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/cache/ftcache.c */,
+				25F8B8CBE04E4C5DA9199302 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/cff/cff.c */,
+				FA0D6E0C65834F719D0EBEFE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/cid/type1cid.c */,
+				AE7CACC337E24DD2822E7E64 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/gzip/ftgzip.c */,
+				FA0E91263C0A4E11AC1BC946 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/lzw/ftlzw.c */,
+				63EC894F27FE4E2983F6DA73 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/pcf/pcf.c */,
+				4DCB82FE584447D3AFB33DA6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/pfr/pfr.c */,
+				5F6E2E4A26364CF08BCB5F97 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/psaux/psaux.c */,
+				547B0D39CFA3436098F1937C /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/pshinter/pshinter.c */,
+				7B3A0F5107344ACEB7B296B1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/psnames/psnames.c */,
+				124187C9CE974A45923F414F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/raster/raster.c */,
+				DD4251E2AA1B420EB05454B1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/sfnt/sfnt.c */,
+				06C8A169BE4F43A08F9DA119 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/smooth/smooth.c */,
+				ADD905904D2C4156B34E4799 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/truetype/truetype.c */,
+				52D11EA9644047F5BBBB8FF5 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/type1/type1.c */,
+				0EB7A61C76C64426947D494F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/type42/type42.c */,
+				323F36A9C00E4D4C9D303E12 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/winfonts/winfnt.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		92C0130F426848B49F36F037 /* imgui-freetype */ = {
+			isa = PBXGroup;
+			children = (
+				A4A83356B6BB4312B703F173 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/misc/freetype/imgui_freetype.cpp */,
+				B3CD3360BE0E4F02AB454CA6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/misc/freetype/imgui_freetype.h */,
+			);
+			name = "imgui-freetype";
+			sourceTree = "<group>";
+		};
+		A206FEBCD4924454A6D49F19 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				290A1D13156D48C8892AC3EE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/CMakeFiles/cimgui-freetype.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D671120ACA54452781C57A57 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E479212808FD40C38B2D61E6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/plugin_custom_assert.cpp */,
+				2D0E954F765E4FA690A3A85E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/cimgui.cpp */,
+				4300FA0321B6479883182B80 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui.cpp */,
+				086FD09D4BAA45D399E6F422 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_demo.cpp */,
+				44FD67ED71194A359F8E85FC /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_draw.cpp */,
+				CA01A49AF69643848C01B56E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_widgets.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DF590703B4DD4DC9A0026C22 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				21259735359B4078ADC0CB54 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/freetype2/CMakeFiles/freetype.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E15FD97584274FF8844367B3 = {
+			isa = PBXGroup;
+			children = (
+				5262A4676E0A48CF9EC19216 /* ALL_BUILD */,
+				6FF0FAEC8BB043BBAD366DD1 /* cimgui-unity */,
+				7C8E0FC5BD8641F9868DD655 /* cimgui-freetype */,
+				66328196DDDC40008D3F18AB /* freetype */,
+				FFB0EFF9460D43D686A03A8B /* Products */,
+				2AB23F1372DC442799FD9474 /* Frameworks */,
+				0F6EDE7902D24126AB989EAA /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		FFB0EFF9460D43D686A03A8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				190314D8126E4B758D16435E /* cimgui-freetype */,
+				8F6B57086471407A92CE823F /* cimgui-unity */,
+				F317CEB51126412E9647A920 /* freetype */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		337FC69FB1C54DB784A0092C /* cimgui-freetype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FDA9064BB2447539FBF1DAF /* Build configuration list for PBXNativeTarget "cimgui-freetype" */;
+			buildPhases = (
+				4528ACB7B4C7402695AFFDC2 /* Sources */,
+				262B7EF6B8B84E2B89B2B42A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7CBC7E786CF4ABAB35D41ED /* PBXTargetDependency */,
+				08B64DAD37F349D797B3AB9E /* PBXTargetDependency */,
+			);
+			name = "cimgui-freetype";
+			productName = "cimgui-freetype";
+			productReference = 190314D8126E4B758D16435E /* cimgui-freetype */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A282153B6293453B8D88C586 /* freetype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFFB961E628B49739A453801 /* Build configuration list for PBXNativeTarget "freetype" */;
+			buildPhases = (
+				52FD34CA2F544D39A1AB6420 /* Sources */,
+				1D0419E900DE4040AA853090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = freetype;
+			productName = freetype;
+			productReference = F317CEB51126412E9647A920 /* freetype */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A8DB50A7E75A4D1AA7D1A0DD /* cimgui-unity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A42634041E4DB08AFCC160 /* Build configuration list for PBXNativeTarget "cimgui-unity" */;
+			buildPhases = (
+				DDFB1731DAFF4D8395736092 /* Sources */,
+				6AEA62241E734011A33012FC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cimgui-unity";
+			productName = "cimgui-unity";
+			productReference = 8F6B57086471407A92CE823F /* cimgui-unity */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B2B11E05CD34239BBD86503 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1510;
+			};
+			buildConfigurationList = DCCC36E0A0E64572AB068EA2 /* Build configuration list for PBXProject "dear-imgui-unity" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				A77E273A59214B1087BB4E4B /* Debug */,
+				2A86A9ABFE6D43C7ABF45F96 /* Release */,
+				791AECD313AF4A598B6F2A16 /* MinSizeRel */,
+				8D78F710570044A0BA105BBA /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = E15FD97584274FF8844367B3;
+			projectDirPath = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build";
+			projectRoot = "";
+			targets = (
+				3B89E7EA69384134B85AF407 /* ALL_BUILD */,
+				63697F7D2D2A430587C780E0 /* ZERO_CHECK */,
+				337FC69FB1C54DB784A0092C /* cimgui-freetype */,
+				A8DB50A7E75A4D1AA7D1A0DD /* cimgui-unity */,
+				A282153B6293453B8D88C586 /* freetype */,
+				E5CC4632EC4F4AB09F42CCFA /* install */,
+				997D63E24F1C46EBB6495353 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2572247547188D360019DD66 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release
+  make -f /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release
+  make -f /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release
+  make -f /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release
+  make -f /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		661D9C604B3B91332E7543CC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B6A9AF045DDF25D3136DF13E /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4528ACB7B4C7402695AFFDC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD10366D1C945D894F506A2 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/cimgui_freetype.cpp */,
+				06286FBFCC4A49CD85DC257B /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/misc/freetype/imgui_freetype.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FD34CA2F544D39A1AB6420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E82E5D5CF17E4F19BD78DF71 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/autofit/autofit.c */,
+				46F37CD7596849ABBBF82791 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftbase.c */,
+				693CCE54D9A24885BB2D1E13 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftbbox.c */,
+				1152EDE15A8B484AAB716847 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftbdf.c */,
+				1D8C0D0B15E844D9A2D8FFB0 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftbitmap.c */,
+				9B4BEEB4CC9044749ED51288 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftcid.c */,
+				57B69A3B467E42639BE2EBAE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftdebug.c */,
+				C9DE418D35AE45A58012EE78 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftfstype.c */,
+				A21E85EE6B0E4A96BF05D7E3 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftgasp.c */,
+				6B26EEB921FE4594B6039DC1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftglyph.c */,
+				5508951A1D61425A8F8D3177 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftgxval.c */,
+				DBE9DE18C4F349D5943B5A71 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftinit.c */,
+				D4E15BFD4DBC454BA1C3C2EE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftmm.c */,
+				5946623596F547ED86EE9AE9 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftotval.c */,
+				790E2163BE5847CEB70B9D8D /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftpatent.c */,
+				30C0C8D40CAC4ED8A727FBED /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftpfr.c */,
+				E00A72BC5F994B1397E664D2 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftstroke.c */,
+				457CF8B14BA64ACE933CB47F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftsynth.c */,
+				2D416556034B404384BECFE1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftsystem.c */,
+				A9F35AFD82754D79AC0BE704 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/fttype1.c */,
+				F18B443735C3413285B6FD20 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/base/ftwinfnt.c */,
+				CA913DAD3B6D443F8398C87E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/bdf/bdf.c */,
+				2F29035F6796437EA95E824D /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/bzip2/ftbzip2.c */,
+				7F4EA21B1D9C496D9175310C /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/cache/ftcache.c */,
+				ECFC96F16FB14DA6AB2E9F94 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/cff/cff.c */,
+				0FCA060C67AE4FDEB18216A6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/cid/type1cid.c */,
+				859BAD0B3CA2430DA5B989DE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/gzip/ftgzip.c */,
+				EA5DDBCF23C94C589FB1D9B1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/lzw/ftlzw.c */,
+				6C928872D82142EE98EC4878 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/pcf/pcf.c */,
+				25CADD4E574446428BA01AD9 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/pfr/pfr.c */,
+				A6D72316C0294DF8B6CB033B /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/psaux/psaux.c */,
+				46E61FFAD65D4CD8A11DF7F1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/pshinter/pshinter.c */,
+				39236C0E0C1D4C6BAD88D6D4 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/psnames/psnames.c */,
+				15EDEEBB3BB344C092558335 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/raster/raster.c */,
+				84009B69DAF94D23B9EA73AA /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/sfnt/sfnt.c */,
+				3BA76170158F4269BAD16540 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/smooth/smooth.c */,
+				F555C9FDB7774ED7883926D4 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/truetype/truetype.c */,
+				E889E43B83EE44AB89B1484E /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/type1/type1.c */,
+				39F45A91DB6940C4B28E4AEC /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/type42/type42.c */,
+				EE386A6F1A4F4412B4CA1186 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/src/winfonts/winfnt.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFB1731DAFF4D8395736092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4ECAE70DA4040F7B1F6D7F6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/plugin_custom_assert.cpp */,
+				ECD56B9077434151BD9AAEC1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/cimgui.cpp */,
+				81807558A56F422A83386BB6 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui.cpp */,
+				68D012656B264C168BE0EF84 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_demo.cpp */,
+				1300A474A1FB440880428081 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_draw.cpp */,
+				7BB8ABFC31134D168C9FFB9C /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_widgets.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08B64DAD37F349D797B3AB9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A282153B6293453B8D88C586 /* freetype */;
+			targetProxy = 65B37033349941DFBECB2403 /* PBXContainerItemProxy */;
+		};
+		0B5D563E60694220A3882BB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B89E7EA69384134B85AF407 /* ALL_BUILD */;
+			targetProxy = 2D8A540BC48C42C8ACE381DB /* PBXContainerItemProxy */;
+		};
+		214DE9DEA71E49AF89A6143F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63697F7D2D2A430587C780E0 /* ZERO_CHECK */;
+			targetProxy = 2A1D5A57ECD84033B8FDA997 /* PBXContainerItemProxy */;
+		};
+		3DDE754AE40F432B8A92DCBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B89E7EA69384134B85AF407 /* ALL_BUILD */;
+			targetProxy = 4536CD57422F43ADBF3FB546 /* PBXContainerItemProxy */;
+		};
+		41A65514E6984E32B6B40F8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 337FC69FB1C54DB784A0092C /* cimgui-freetype */;
+			targetProxy = 820ED44B49224A3BB81EB1E8 /* PBXContainerItemProxy */;
+		};
+		B1DB408FFD2B402FAA871F5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A282153B6293453B8D88C586 /* freetype */;
+			targetProxy = F89170752B494FEDAF8452BC /* PBXContainerItemProxy */;
+		};
+		EDBE5C523A0943CCB7B586B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8DB50A7E75A4D1AA7D1A0DD /* cimgui-unity */;
+			targetProxy = 3D45193ACCCB4325A2581458 /* PBXContainerItemProxy */;
+		};
+		F7CBC7E786CF4ABAB35D41ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8DB50A7E75A4D1AA7D1A0DD /* cimgui-unity */;
+			targetProxy = 8C97479F3B894BFF822D9309 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CEAC4D0000B484190069629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/freetype2/Release${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/freetype2/include","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fvisibility=hidden -fPIC ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = freetype;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/build/freetype.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		14663EB163EA4DAFB5F39AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/build";
+			};
+			name = Debug;
+		};
+		1A5C4ADAEE9F49479E15FC87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1AE24E6AB8C549E0B33F0EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/Debug${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'IMGUI_API='","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/../cimgui/imgui/misc/freetype","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/../cimgui","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/../cimgui/imgui","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/freetype2/include","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   -Wno-return-type-c-linkage ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "cimgui-freetype";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/build/cimgui-freetype.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2175EA795A414E14B171ED3E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/freetype2/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/freetype2/include","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG -fvisibility=hidden -fPIC ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = freetype;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/build/freetype.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		259B60A81E204C64A6A2B20C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/MinSizeRel${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'IMGUI_API='","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/../cimgui/imgui/misc/freetype","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/../cimgui","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/../cimgui/imgui","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/freetype2/include","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wno-return-type-c-linkage ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "cimgui-freetype";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/build/cimgui-freetype.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		27BE3380B4CF48C7B0C9D25D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/Release${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'IMGUI_API='","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/../cimgui/imgui/misc/freetype","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/../cimgui","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/../cimgui/imgui","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/freetype2/include","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wno-return-type-c-linkage ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "cimgui-freetype";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/build/cimgui-freetype.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		318206CCF7A5429980BDB7D5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		33B5E55317724D069C8EB53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity/Release${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'IMGUI_DISABLE_OBSOLETE_FUNCTIONS=1'","'IMGUI_API='","'IMGUI_IMPL_API=\"extern \" C\" \"'","'IMGUI_USER_CONFIG=\"imconfig_unity.h\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/../cimgui","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/../cimgui/imgui","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wno-return-type-c-linkage ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cimgui;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/build/cimgui-unity.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3927B16CFA564E9BAD597630 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5E91592CFD6F4ADA9DA738B6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		614F8BEF70694699BAC6E144 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		66A164921A7E411C878BB9F0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/build";
+			};
+			name = RelWithDebInfo;
+		};
+		6AAFB50C841F41C2924B652C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity/Debug${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'IMGUI_DISABLE_OBSOLETE_FUNCTIONS=1'","'IMGUI_API='","'IMGUI_IMPL_API=\"extern \" C\" \"'","'IMGUI_USER_CONFIG=\"imconfig_unity.h\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/../cimgui","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/../cimgui/imgui","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   -Wno-return-type-c-linkage ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cimgui;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/build/cimgui-unity.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6BEB1C0357074A538F5E11C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8923E3E00EB143AFB92C161E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/build";
+			};
+			name = MinSizeRel;
+		};
+		8CEDE948429A433F88E5C755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8E2F66278C85410E85191D4A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9F962EF583BD494295B08F74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BEDD031FD5184C95AB4F5DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C2CC59B5267540B5AB09D7FB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'IMGUI_DISABLE_OBSOLETE_FUNCTIONS=1'","'IMGUI_API='","'IMGUI_IMPL_API=\"extern \" C\" \"'","'IMGUI_USER_CONFIG=\"imconfig_unity.h\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/../cimgui","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/../cimgui/imgui","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wno-return-type-c-linkage ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cimgui;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/build/cimgui-unity.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C31111F1A04841E9BDD3EBF0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C3A51F235FD441D792726180 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity/MinSizeRel${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'IMGUI_DISABLE_OBSOLETE_FUNCTIONS=1'","'IMGUI_API='","'IMGUI_IMPL_API=\"extern \" C\" \"'","'IMGUI_USER_CONFIG=\"imconfig_unity.h\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/../cimgui","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/../cimgui/imgui","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wno-return-type-c-linkage ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cimgui;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/build/cimgui-unity.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C91DA5472EC2493D964B8DC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CC2B3C380DAB47BE84006C8A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/freetype2/MinSizeRel${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/freetype2/include","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fvisibility=hidden -fPIC ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = freetype;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/build/freetype.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D13E5F64F524414EAFD959EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/build";
+			};
+			name = Release;
+		};
+		D315D7F6AD644B6A9E493059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D7848D8E3F6E4BD49719996F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D7E2C912B61F4496BC0B3782 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'IMGUI_API='","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/../cimgui/imgui/misc/freetype","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/../cimgui","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/../cimgui/imgui","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/freetype2/include","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wno-return-type-c-linkage ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "cimgui-freetype";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/build/cimgui-freetype.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DCD8ACD8F9C14645BD9C1446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/freetype2/Debug${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-freetype/freetype2/include","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-freetype/freetype2/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   -fvisibility=hidden -fPIC ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = freetyped;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/build/freetype.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F3DC11864D284B939E3F787A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FFB754F3C09D40CEA965C693 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FDA9064BB2447539FBF1DAF /* Build configuration list for PBXNativeTarget "cimgui-freetype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE24E6AB8C549E0B33F0EDA /* Debug */,
+				27BE3380B4CF48C7B0C9D25D /* Release */,
+				259B60A81E204C64A6A2B20C /* MinSizeRel */,
+				D7E2C912B61F4496BC0B3782 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		385E5774E7CA458DB6D0A427 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7848D8E3F6E4BD49719996F /* Debug */,
+				BEDD031FD5184C95AB4F5DFB /* Release */,
+				F3DC11864D284B939E3F787A /* MinSizeRel */,
+				318206CCF7A5429980BDB7D5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3FEE8468450546BFAB47A6EE /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BEB1C0357074A538F5E11C2 /* Debug */,
+				8CEDE948429A433F88E5C755 /* Release */,
+				614F8BEF70694699BAC6E144 /* MinSizeRel */,
+				3927B16CFA564E9BAD597630 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		40A42634041E4DB08AFCC160 /* Build configuration list for PBXNativeTarget "cimgui-unity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AAFB50C841F41C2924B652C /* Debug */,
+				33B5E55317724D069C8EB53E /* Release */,
+				C3A51F235FD441D792726180 /* MinSizeRel */,
+				C2CC59B5267540B5AB09D7FB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		716B08988C3E444FA380CB0E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C91DA5472EC2493D964B8DC1 /* Debug */,
+				D315D7F6AD644B6A9E493059 /* Release */,
+				5E91592CFD6F4ADA9DA738B6 /* MinSizeRel */,
+				8E2F66278C85410E85191D4A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DCCC36E0A0E64572AB068EA2 /* Build configuration list for PBXProject "dear-imgui-unity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14663EB163EA4DAFB5F39AEB /* Debug */,
+				D13E5F64F524414EAFD959EF /* Release */,
+				8923E3E00EB143AFB92C161E /* MinSizeRel */,
+				66A164921A7E411C878BB9F0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EFFB961E628B49739A453801 /* Build configuration list for PBXNativeTarget "freetype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD8ACD8F9C14645BD9C1446 /* Debug */,
+				0CEAC4D0000B484190069629 /* Release */,
+				CC2B3C380DAB47BE84006C8A /* MinSizeRel */,
+				2175EA795A414E14B171ED3E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F3E0995E3477493C9E764E53 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F962EF583BD494295B08F74 /* Debug */,
+				1A5C4ADAEE9F49479E15FC87 /* Release */,
+				FFB754F3C09D40CEA965C693 /* MinSizeRel */,
+				C31111F1A04841E9BDD3EBF0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B2B11E05CD34239BBD86503 /* Project object */;
+}

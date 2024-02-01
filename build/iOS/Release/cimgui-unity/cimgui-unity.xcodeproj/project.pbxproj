@@ -1,0 +1,1095 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3B89E7EA69384134B85AF407 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0CDBD05B97E54D5A810B4140 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				30B685E73C4124C45FF45AAC /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				AE4CDADDEF364FF5A35BC061 /* PBXTargetDependency */,
+				121626450CAC4979B71BB2D2 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		63697F7D2D2A430587C780E0 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C2920670E027454383C7BB31 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				92E60C298B39F04A839E6D13 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		997D63E24F1C46EBB6495353 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8E2922FE440243DE8C48CF1C /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				B95382FC519742019FABB79F /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		E5CC4632EC4F4AB09F42CCFA /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6E3E87FD4E79461DA0C0A724 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				040F2D8CA36240CCB1914647 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1F141E447A514889A525E6DE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_widgets.cpp */ = {isa = PBXBuildFile; fileRef = 4933E6E0F3704092A631DF38 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_widgets.cpp */; };
+		334293137D0E45C6B05C1342 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_draw.cpp */ = {isa = PBXBuildFile; fileRef = 3067E7543A5940E6B14CCBF5 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_draw.cpp */; };
+		50F26DB1DEF3472C8B542E8F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity/CMakeFiles/cimgui-unity.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = D8DFB374839143F2B4BB7E56 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity/CMakeFiles/cimgui-unity.dir/Info.plist */; };
+		8C327373CD344A5A8AB82E91 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/plugin_custom_assert.cpp */ = {isa = PBXBuildFile; fileRef = 39955F3B1FC14C5F970949C3 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/plugin_custom_assert.cpp */; };
+		9FB9D0341DDE4DFDB8E106F1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_demo.cpp */ = {isa = PBXBuildFile; fileRef = 7F926AF02BA24F919B4C05CE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_demo.cpp */; };
+		D07643EF4EF3466C87121DD9 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/cimgui.cpp */ = {isa = PBXBuildFile; fileRef = 3F4544F8A09F4E93B6E81F36 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/cimgui.cpp */; };
+		EAB7D0C60BCC49DC97EF26E2 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui.cpp */ = {isa = PBXBuildFile; fileRef = FABC07A8D27C4086B83F7A64 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui.cpp */; };
+		F112A040F42444AAB919F28F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 818405B1AA63465DBA7E96EA /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/CMakeLists.txt */; };
+		FDC717A876124B879F18F120 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/imconfig_unity.h */ = {isa = PBXBuildFile; fileRef = 699A2803E15C4953AEEC407D /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/imconfig_unity.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		40942A61ADCD4307B267956C /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		AF6669E7A8204BAC8B6776A3 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		B284312F04A9438C8DADF721 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		E2EABF82599241019B9D7433 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		06F513C342D449429B2005C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B430905AFA694D65883E5801 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8DB50A7E75A4D1AA7D1A0DD;
+			remoteInfo = "cimgui-unity";
+		};
+		7FC6DACB6D8041DBBC57A8C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B430905AFA694D65883E5801 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63697F7D2D2A430587C780E0;
+			remoteInfo = ZERO_CHECK;
+		};
+		82D87C8EAE5A4C1AB3FA253C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B430905AFA694D65883E5801 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B89E7EA69384134B85AF407;
+			remoteInfo = ALL_BUILD;
+		};
+		997255A64B2A4F4ABC2EDC76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B430905AFA694D65883E5801 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63697F7D2D2A430587C780E0;
+			remoteInfo = ZERO_CHECK;
+		};
+		DB2BE5D77EFF4BB384179F41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B430905AFA694D65883E5801 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B89E7EA69384134B85AF407;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E3ECFF1635C44ADABBBEC5F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3067E7543A5940E6B14CCBF5 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_draw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_draw.cpp; path = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_draw.cpp"; sourceTree = "<absolute>"; };
+		39955F3B1FC14C5F970949C3 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/plugin_custom_assert.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = plugin_custom_assert.cpp; path = plugin_custom_assert.cpp; sourceTree = SOURCE_ROOT; };
+		3F4544F8A09F4E93B6E81F36 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/cimgui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cimgui.cpp; path = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/cimgui.cpp"; sourceTree = "<absolute>"; };
+		4933E6E0F3704092A631DF38 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_widgets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_widgets.cpp; path = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_widgets.cpp"; sourceTree = "<absolute>"; };
+		4DFDD2D63B984360BDFCE534 /* cimgui-unity */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libcimgui.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		699A2803E15C4953AEEC407D /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/imconfig_unity.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imconfig_unity.h; path = imconfig_unity.h; sourceTree = SOURCE_ROOT; };
+		7F926AF02BA24F919B4C05CE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_demo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_demo.cpp; path = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_demo.cpp"; sourceTree = "<absolute>"; };
+		818405B1AA63465DBA7E96EA /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D8DFB374839143F2B4BB7E56 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity/CMakeFiles/cimgui-unity.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity/CMakeFiles/cimgui-unity.dir/Info.plist"; sourceTree = "<absolute>"; };
+		FABC07A8D27C4086B83F7A64 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui.cpp; path = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui.cpp"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98297070ED634483A157B470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1117AFD3D6C54BC9B708B0DA /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				39955F3B1FC14C5F970949C3 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/plugin_custom_assert.cpp */,
+				3F4544F8A09F4E93B6E81F36 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/cimgui.cpp */,
+				FABC07A8D27C4086B83F7A64 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui.cpp */,
+				7F926AF02BA24F919B4C05CE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_demo.cpp */,
+				3067E7543A5940E6B14CCBF5 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_draw.cpp */,
+				4933E6E0F3704092A631DF38 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_widgets.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		299B39F1C9EA4F52A9935C5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A67637A8FEB4AE6A7C18BBE /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				2AB9EF07364049CB98301E0A /* CMake Rules */,
+				1E3ECFF1635C44ADABBBEC5F /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		2AB9EF07364049CB98301E0A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		4A86F0B0B9984A88A8AF1B12 = {
+			isa = PBXGroup;
+			children = (
+				71DE656C7BA04B959E127280 /* cimgui-unity */,
+				2A67637A8FEB4AE6A7C18BBE /* ALL_BUILD */,
+				92A3D46872A644DB8C1C1EA5 /* Products */,
+				299B39F1C9EA4F52A9935C5E /* Frameworks */,
+				8E00D91A516847459F27B87A /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		71DE656C7BA04B959E127280 /* cimgui-unity */ = {
+			isa = PBXGroup;
+			children = (
+				1117AFD3D6C54BC9B708B0DA /* Source Files */,
+				A3D266E52EDD438B9F33C2B0 /* Header Files */,
+				FC63BCA13707468FBA23E8D7 /* Resources */,
+				818405B1AA63465DBA7E96EA /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/CMakeLists.txt */,
+			);
+			name = "cimgui-unity";
+			sourceTree = "<group>";
+		};
+		8E00D91A516847459F27B87A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		92A3D46872A644DB8C1C1EA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DFDD2D63B984360BDFCE534 /* cimgui-unity */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3D266E52EDD438B9F33C2B0 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				699A2803E15C4953AEEC407D /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/imconfig_unity.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		FC63BCA13707468FBA23E8D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D8DFB374839143F2B4BB7E56 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity/CMakeFiles/cimgui-unity.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8DB50A7E75A4D1AA7D1A0DD /* cimgui-unity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 294DC7B8D34E489F89C899E2 /* Build configuration list for PBXNativeTarget "cimgui-unity" */;
+			buildPhases = (
+				1E6245FCBB5040FA9A505E21 /* Sources */,
+				98297070ED634483A157B470 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F47A879B60D412F824D5609 /* PBXTargetDependency */,
+			);
+			name = "cimgui-unity";
+			productName = "cimgui-unity";
+			productReference = 4DFDD2D63B984360BDFCE534 /* cimgui-unity */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B430905AFA694D65883E5801 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1510;
+			};
+			buildConfigurationList = 1732C947831F40689BB32DAA /* Build configuration list for PBXProject "cimgui-unity" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				B284312F04A9438C8DADF721 /* Debug */,
+				AF6669E7A8204BAC8B6776A3 /* Release */,
+				E2EABF82599241019B9D7433 /* MinSizeRel */,
+				40942A61ADCD4307B267956C /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 4A86F0B0B9984A88A8AF1B12;
+			projectDirPath = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity";
+			projectRoot = "";
+			targets = (
+				3B89E7EA69384134B85AF407 /* ALL_BUILD */,
+				63697F7D2D2A430587C780E0 /* ZERO_CHECK */,
+				A8DB50A7E75A4D1AA7D1A0DD /* cimgui-unity */,
+				E5CC4632EC4F4AB09F42CCFA /* install */,
+				997D63E24F1C46EBB6495353 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30B685E73C4124C45FF45AAC /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		661D9C604B3B91332E7543CC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		92E60C298B39F04A839E6D13 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity
+  make -f /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity
+  make -f /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity
+  make -f /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity
+  make -f /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E6245FCBB5040FA9A505E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C327373CD344A5A8AB82E91 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/plugin_custom_assert.cpp */,
+				D07643EF4EF3466C87121DD9 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/cimgui.cpp */,
+				EAB7D0C60BCC49DC97EF26E2 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui.cpp */,
+				9FB9D0341DDE4DFDB8E106F1 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_demo.cpp */,
+				334293137D0E45C6B05C1342 /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_draw.cpp */,
+				1F141E447A514889A525E6DE /* /Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui/imgui/imgui_widgets.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		040F2D8CA36240CCB1914647 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B89E7EA69384134B85AF407 /* ALL_BUILD */;
+			targetProxy = DB2BE5D77EFF4BB384179F41 /* PBXContainerItemProxy */;
+		};
+		121626450CAC4979B71BB2D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8DB50A7E75A4D1AA7D1A0DD /* cimgui-unity */;
+			targetProxy = 06F513C342D449429B2005C0 /* PBXContainerItemProxy */;
+		};
+		4F47A879B60D412F824D5609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63697F7D2D2A430587C780E0 /* ZERO_CHECK */;
+			targetProxy = 997255A64B2A4F4ABC2EDC76 /* PBXContainerItemProxy */;
+		};
+		AE4CDADDEF364FF5A35BC061 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63697F7D2D2A430587C780E0 /* ZERO_CHECK */;
+			targetProxy = 7FC6DACB6D8041DBBC57A8C4 /* PBXContainerItemProxy */;
+		};
+		B95382FC519742019FABB79F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B89E7EA69384134B85AF407 /* ALL_BUILD */;
+			targetProxy = 82D87C8EAE5A4C1AB3FA253C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04C5805556D34C71BEF90482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0DA607CD309D475D869B519F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1121E8397E0F448D9BFB1C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		163093BBD0CE441E9EAEFCD3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		26028E817FE84FCBAC068C41 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/build";
+			};
+			name = MinSizeRel;
+		};
+		421AE94485AD46DAB70EB561 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/build";
+			};
+			name = RelWithDebInfo;
+		};
+		4E254EACE74242ECAF220AC9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		52A569124D46460F87D64DEF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		58BC92BBF29C4B1A9C4C93BB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		62E44E3FCE7C480C9654DBC9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6B5E6A2003C6440E84025EB7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity/MinSizeRel${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'IMGUI_DISABLE_OBSOLETE_FUNCTIONS=1'","'IMGUI_API='","'IMGUI_IMPL_API=\"extern \" C\" \"'","'IMGUI_USER_CONFIG=\"imconfig_unity.h\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/../cimgui","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/../cimgui/imgui","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wno-return-type-c-linkage ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cimgui;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/build/cimgui-unity.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		73202D7999F34C17B8C9D6AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/build";
+			};
+			name = Release;
+		};
+		9866BD5C76DA4AAC8C91C194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9B6E8D6FCBA3433F86FFCB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity/Debug${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'IMGUI_DISABLE_OBSOLETE_FUNCTIONS=1'","'IMGUI_API='","'IMGUI_IMPL_API=\"extern \" C\" \"'","'IMGUI_USER_CONFIG=\"imconfig_unity.h\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/../cimgui","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/../cimgui/imgui","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   -Wno-return-type-c-linkage ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cimgui;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/build/cimgui-unity.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		ADBFD1DDE07C4BCEB9886F9C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BED2F5590DB2406280CBA4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C52351255918413083DD781A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		CA02E91B5BFC40108ACE2BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/build";
+			};
+			name = Debug;
+		};
+		D323CBCC296E49968AA031C9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E951E35B978C4CCD99C45D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity/Release${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'IMGUI_DISABLE_OBSOLETE_FUNCTIONS=1'","'IMGUI_API='","'IMGUI_IMPL_API=\"extern \" C\" \"'","'IMGUI_USER_CONFIG=\"imconfig_unity.h\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/../cimgui","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/../cimgui/imgui","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wno-return-type-c-linkage ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cimgui;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/build/cimgui-unity.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EE186D926D6241D397DCA662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		FB341410679A4A7BB3B59CBA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/cimgui-unity/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'IMGUI_DISABLE_OBSOLETE_FUNCTIONS=1'","'IMGUI_API='","'IMGUI_IMPL_API=\"extern \" C\" \"'","'IMGUI_USER_CONFIG=\"imconfig_unity.h\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/../cimgui","/Users/pearson/Documents/ImGUIProject/IMGUI-Build/cimgui-unity/../cimgui/imgui","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wno-return-type-c-linkage ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cimgui;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/pearson/Documents/ImGUIProject/IMGUI-Build/build/iOS/Release/build/cimgui-unity.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FE38D381DA5F48D4BAEA8AE4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FE91C8DC500B40D49B80A847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CDBD05B97E54D5A810B4140 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C5805556D34C71BEF90482 /* Debug */,
+				C52351255918413083DD781A /* Release */,
+				58BC92BBF29C4B1A9C4C93BB /* MinSizeRel */,
+				163093BBD0CE441E9EAEFCD3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1732C947831F40689BB32DAA /* Build configuration list for PBXProject "cimgui-unity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA02E91B5BFC40108ACE2BCF /* Debug */,
+				73202D7999F34C17B8C9D6AE /* Release */,
+				26028E817FE84FCBAC068C41 /* MinSizeRel */,
+				421AE94485AD46DAB70EB561 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		294DC7B8D34E489F89C899E2 /* Build configuration list for PBXNativeTarget "cimgui-unity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6E8D6FCBA3433F86FFCB58 /* Debug */,
+				E951E35B978C4CCD99C45D89 /* Release */,
+				6B5E6A2003C6440E84025EB7 /* MinSizeRel */,
+				FB341410679A4A7BB3B59CBA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6E3E87FD4E79461DA0C0A724 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9866BD5C76DA4AAC8C91C194 /* Debug */,
+				BED2F5590DB2406280CBA4DE /* Release */,
+				4E254EACE74242ECAF220AC9 /* MinSizeRel */,
+				ADBFD1DDE07C4BCEB9886F9C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8E2922FE440243DE8C48CF1C /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1121E8397E0F448D9BFB1C9E /* Debug */,
+				FE91C8DC500B40D49B80A847 /* Release */,
+				52A569124D46460F87D64DEF /* MinSizeRel */,
+				D323CBCC296E49968AA031C9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C2920670E027454383C7BB31 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE186D926D6241D397DCA662 /* Debug */,
+				0DA607CD309D475D869B519F /* Release */,
+				FE38D381DA5F48D4BAEA8AE4 /* MinSizeRel */,
+				62E44E3FCE7C480C9654DBC9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B430905AFA694D65883E5801 /* Project object */;
+}

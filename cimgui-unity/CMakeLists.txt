@@ -14,14 +14,19 @@ file(GLOB IMGUI_SOURCES
     ${_cimgui_path}imgui/imgui_widgets.cpp
 )
 
-set(IMGUI_STATIC "no" CACHE STRING "Build as a static library")
 
-# add library and link
-if (IMGUI_STATIC)
+
+if (PLATFORM STREQUAL "iOS")
+    set(CMAKE_XCODE_ATTRIBUTE_ARCHS[sdk=iphoneos*] "arm64")
+    # add library and link
+    set(IMGUI_STATIC "yes" CACHE STRING "Build as a static library")
     add_library(${PROJECT_NAME} STATIC ${IMGUI_SOURCES})
-else (IMGUI_STATIC)
+else()
+    set(LIB_TYPE SHARED)
     add_library(${PROJECT_NAME} SHARED ${IMGUI_SOURCES})
-endif (IMGUI_STATIC)
+    set(IMGUI_STATIC "no" CACHE STRING "Build as a static library")
+endif()
+
 
 # export cpp imgui functions for other libraries eg cimgui-freetype
 target_compile_definitions(${PROJECT_NAME} PRIVATE IMGUI_DISABLE_OBSOLETE_FUNCTIONS=1)

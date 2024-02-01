@@ -1,0 +1,14 @@
+Target dependency graph (6 targets)
+Target 'package' in project 'cimgui-freetype'
+➜ Explicit dependency on target 'ALL_BUILD' in project 'cimgui-freetype'
+Target 'install' in project 'cimgui-freetype'
+➜ Explicit dependency on target 'ALL_BUILD' in project 'cimgui-freetype'
+Target 'ALL_BUILD' in project 'cimgui-freetype'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'cimgui-freetype'
+➜ Explicit dependency on target 'cimgui-freetype' in project 'cimgui-freetype'
+➜ Explicit dependency on target 'freetype' in project 'cimgui-freetype'
+Target 'cimgui-freetype' in project 'cimgui-freetype'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'cimgui-freetype'
+➜ Explicit dependency on target 'freetype' in project 'cimgui-freetype'
+Target 'freetype' in project 'cimgui-freetype' (no dependencies)
+Target 'ZERO_CHECK' in project 'cimgui-freetype' (no dependencies)
